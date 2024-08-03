@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="myOPENGL" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/myOPENGL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../eigen-3.4.0/eigen-3.4.0" />
+				</Compiler>
+				<Linker>
+					<Add library="glut32" />
+					<Add library="glu32" />
+					<Add library="gdi32" />
+					<Add library="winmm" />
+					<Add library="opengl32" />
+					<Add directory="../eigen-3.4.0/eigen-3.4.0" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/myOPENGL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="gdi32" />
+			<Add directory="D:/Workspace/eigen-3.4.0" />
+		</Linker>
+		<Unit filename="3D_array.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="Algorithm_Plot.cpp" />
+		<Unit filename="Algorithm_Plot.h" />
+		<Unit filename="Coordinate_3D.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="Coordinate_Test.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="CreateSubProblem.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="DTLZ1.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="DTLZ1_Para.h" />
+		<Unit filename="DTLZ1_function.h" />
+		<Unit filename="Evolutionary_Algorithm_Main.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="Generate_Ref_Pts.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="Generate_Ref_Pts.h" />
+		<Unit filename="IGD_calculation.h" />
+		<Unit filename="MOEAD_TEST.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="MOEAD_function.h" />
+		<Unit filename="Matlab_DTLZ1.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="Read_Ref_Pt.h" />
+		<Unit filename="Read_Ref_Pt_1.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="Read_Ref_Pt_eigen.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="Slope.h" />
+		<Unit filename="buttom_ex.cpp">
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="is_field.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="randsample.h" />
+		<Unit filename="test_head.h" />
+		<Unit filename="unifrnd.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
